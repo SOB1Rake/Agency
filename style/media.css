@@ -1,0 +1,141 @@
+@media (max-width:1000px){
+
+  .nav_list{
+    display: none;
+  }
+
+
+.nav_btn {
+
+  a{
+    display: none;
+  }
+  i {
+    display: block;
+    color: var(--blacktext);
+    font-size: 30px;
+  }
+}
+
+
+  .header_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+      font-size: 28px;
+      max-width: 328px;
+      width: 100%;
+    }
+
+    p{
+      font-size: 14px;
+      font-weight: 400;
+      max-width: 340px;
+      width: 100%;
+    }
+  }
+  .teammate_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teammate_left {
+    display: none;
+  }
+
+  .teammate_right{
+    text-align: center;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+  }
+
+  .teammateleft {
+    display: block;
+    text-align: center;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .services_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+
+    h2 {
+      font-size: 35px;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .talk{
+
+    h2{
+      font-size: 34px;
+      font-weight: 700;
+    }
+  }
+
+  .talk_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      max-width: 340px;
+      width: 100%;
+    }
+  }
+
+
+  .winleft {
+    display: none;
+  }
+
+  .winLeft {
+    display: block;
+  }
+
+  .win_contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .win_right {
+      margin-left: -30%;
+      margin-bottom: -20%;
+    }
+  }
+
+  .footer_content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list {
+    display: flex;
+    gap: 200px;
+    margin-top: 80px;
+  }
+
+  .footer_list{
+    margin-bottom: 45px;
+  }
+}
